@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title> Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>
+        <center>
+            <ul class="menu1">
+                <li class="links"><a href="#home">Home</a></li>
+                <li class="links"><a href="#Grids">Grid View</a></li>
+                <li class="links"><a href="#slides">Slide View</a></li>
+            </ul>
+        </center>
+    </h3>
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2><img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTng566yvAv4A3sJdZ9TetY5cF4irMXNK86rw&usqp=CAU" class="img-responsive">
+            </div>
+        </section>
+    </div>
+
+    <hr style="width: 100%;">
+    <section id="Grids">
+        <h2>Grid Gallery</h2>
+        <br>
+        <script src=""></script>
+        <div class="row">
+            <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg4L6d02FrNzXZC8UW9wdyoP4xxt0TCSl1VA&usqp=CAU">
+            <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsfDiF4UkgcIT-ynkICDwjhRiHPVsMPtSwuA&usqp=CAU">
+            <img class="img2" src="deer.jpeg">
+            <img class="img2" src="tiger.jpeg">
+            <br><br>
+        </div>
+        <div class="row">
+            <img class="img2" src="elephant.jpeg">
+            <img class="img" src="gorilla.jpeg">
+            <img class="img" src="polar%20bear.jpeg">
+            <img class="img" src="quokka.jpeg">
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr style="width:100%;">
+    <section id="slides">
+        <h2> Sliding Gallery</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item">
+                    <img class="img-responsive" src="ferrari.jpeg" alt="Ferrari" style="width:100%;">
+                    <div class="carousel-caption">
+                        <h3>Ferrari </h3>
+                    </div>
+                </div>
+                <div class="item active">
+                    <img class="img-responsive" src="bugatti%20chiron.jpeg" alt="Bugatti Chiron" style="width:100%;">
+                    <div class="carousel-caption"><h3> Bugatti Chiron</h3></div>
+                </div>
+                <div class="item active">
+                    <img class="img-responsive" src="koenigsegg%20agera.jpeg" alt="Koenigsegg agera" style="width:100%;">
+                    <div class="carousel-caption"><h3>Koenigsegg agera</h3></div>
+                </div>
+                 <div class="item active">
+                    <img class="img-responsive" src="lamborghini%20huracan%20.jpeg" alt="Lamborghini Huracan" style="width:100%;">
+                    <div class="carousel-caption"><h3> Lamborghini huracan </h3></div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> 
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> 
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>
